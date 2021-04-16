@@ -1,0 +1,77 @@
+*{box-sizing: border-box;}
+.container{
+	width: 900px;
+	margin: auto;
+
+}
+header{
+	font-size: 25px;
+	/* border:0.5px solid gray; */
+	border-bottom: 3px solid gray;
+	color : silver;
+}
+#title{
+	padding-left: 1cm;
+}
+#subtitle{border-top: 1px solid gray;
+color: silver;
+padding-top: 5mm;
+text-align: center;
+}
+nav{
+	float: left;
+	width: 180px;
+	height: 850px;
+	font-size: 13px;
+	border-right: 2px solid gray;
+}
+a{
+	text-decoration:none;
+}
+.team{
+color: black;
+
+}
+#hof{font-size: 20px;
+padding-right: none;
+color: goldenrod;}
+
+article{
+	float: left ;
+	width: 715px;
+	height: 850px;
+}
+#LCKimg1,#LCKimg2{
+	width: 8cm;
+	height: 6cm;
+	padding:15px;
+}
+.ift{ border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+	padding-top:  5px;
+	padding-bottom: 5px;
+	padding-left: 5cm;
+}
+
+.loster{
+	width: 358px;
+	border-bottom:0.5px solid gray;
+	border-right: 0.5px solid gray;
+	padding: 2mm;
+	float: left;
+	height: 7cm;
+	margin: none;
+}
+.career{
+	width: 357px;
+	border-bottom: 0.5px solid gray;
+	padding: 2mm;
+	float: right;
+	height: 7cm;
+	margin: none;
+}
+#text{
+	float: left;
+	padding-left: 15px;
+}
+
