@@ -2,20 +2,19 @@
 .container{
 	width: 900px;
 	margin: auto;
-
 }
 header{
 	font-size: 25px;
 	/* border:0.5px solid gray; */
 	border-bottom: 3px solid gray;
-	color : silver;
+	color : navy;
 }
 #title{
 	padding-left: 1cm;
 }
 #subtitle{border-top: 1px solid gray;
-color: silver;
 padding-top: 5mm;
+color: navy;
 text-align: center;
 }
 nav{
@@ -30,18 +29,25 @@ a{
 }
 .team{
 color: black;
-
 }
-#hof{font-size: 20px;
+
+#hof{font-size: 18px;
+	text-align: center;
 padding-right: none;
-color: goldenrod;}
+background-color: red;
+color: goldenrod;
+display: inline-block;
+transition:transform 1s;}
+#hof:active{transform:translateY(100px);}
 
 article{
 	float: left ;
 	width: 715px;
 	height: 850px;
 }
-#LCKimg1,#LCKimg2{
+#LCKimg1{
+	display: block;
+	margin: 0px auto;
 	width: 8cm;
 	height: 6cm;
 	padding:15px;
@@ -51,27 +57,40 @@ article{
 	padding-top:  5px;
 	padding-bottom: 5px;
 	padding-left: 5cm;
+	height: auto;
 }
 
+.LC{
+	border-bottom: 0.5px solid gray;
+	text-align: center;
+	height: 0.75cm;
+	padding-top: 1mm;
+}
 .loster{
 	width: 358px;
 	border-bottom:0.5px solid gray;
 	border-right: 0.5px solid gray;
-	padding: 2mm;
+	
 	float: left;
-	height: 7cm;
+	height: 4.7cm;
 	margin: none;
 }
 .career{
 	width: 357px;
 	border-bottom: 0.5px solid gray;
-	padding: 2mm;
+
 	float: right;
-	height: 7cm;
+	height: 4.7cm;
 	margin: none;
 }
 #text{
 	float: left;
 	padding-left: 15px;
+	font-size: 13px;
 }
+#plusi{
+	padding-left: 3mm;
+	font-size: 13px;
+}
+
 
